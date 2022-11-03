@@ -41,10 +41,10 @@ class DivisibleBy5TestCase(unittest.TestCase):
         super(DivisibleBy5TestCase, self).__init__(*args, **kwargs)
         self.dfa: DFA = DFA(self.States.start.value)
         self.dfa.add_transition(self.States.start.value, self.States.q0.value, '0')
-        # todo
+        # todo 1
 
     def test_dfa(self):
-        # todo
+        # todo 2
         pass
 
 
